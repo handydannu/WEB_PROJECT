@@ -9,8 +9,14 @@ Mail	: handydannu[at]hotmail[dot]com
 List project
 ===================================================
 
-1. JaringanSarafTiruan - Deteksi Penyakit
-2.
-
-
+1.JaringanSarafTiruan - Deteksi Penyakit
+2.CoralsCrawler - LIPI web project
+3.UNION - Web Universitas CMS
+4.WXPaint-Draw With php
+5.MOSI - Pemodelan Simulasi
+6.Simple Native CRUD - PHP
+7.SimpleLogin-PHP
+8.Sistem Basis Data - Pasien Apps
+9.RPL2-master
+10.phpgraphlib-master
 ===================================================
