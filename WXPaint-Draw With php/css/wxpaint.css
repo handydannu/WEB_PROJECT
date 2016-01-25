@@ -1,0 +1,147 @@
+html, body {
+    width: 99%;
+    height: 90%;
+    background-color: #DDD;
+}
+#paint{
+    cursor: url("../img/pencil.png"), auto;
+}
+#sketch {
+    height: 100%;
+    cursor: default;
+    box-shadow: 3px 3px 10px 1px #CCC;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#mouse_pos{
+    margin: 5px 10px;
+    padding: 7px 10px;
+    border: 1px solid #CCC;
+    width: 150px;
+    float: left;
+    border-radius: 3px;
+}
+.float-left{
+    float: left;
+}
+.size{
+    margin: 16px -15px 0 10px;
+}
+.color{
+    margin: 5px 10px;
+    float: left;
+}
+.button-group{
+    margin: 5px 10px;
+    float: left;
+}
+.btn-icon{
+    height: 42px;
+    width: 42px;
+    margin: 0 5px;
+    padding: 3px;
+    border: 1px solid #CCC;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    z-index: 50;
+}
+.btn-icon:hover{
+    background-color: rgba(50,50,50,0.1);
+}
+.slider{
+    margin: 5px 10px;
+    float: left;
+}
+
+#linesize, #speed{
+    float: left;
+    clear: left;
+    width: 100px;
+    margin: 15px;
+    margin-right: 10px;
+}
+#linesize .ui-slider-range { background: #ef2929; }
+#linesize .ui-slider-handle { border-color: #ef2929; }
+#speed .ui-slider-range { background: #3276B1; }
+#speed .ui-slider-handle { border-color: #3276B1; }
+
+#val_linesize, #val_speed{
+    margin-top: 12px;
+    float: left;
+}
+
+.indicator{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #6BADDE;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 1000000;
+}
+
+#ind1{
+    bottom:0;
+    left: 0;
+}
+
+#ind2{
+    top: 0;
+    left: 0;
+    background-color: crimson;
+}
+
+#capture-area{
+    display: block;
+    height: 0px;
+    width: 0px;
+    margin: auto;
+    z-index: 100;
+    background-color: #FFF;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    border: 10px solid #12C1E0;
+    visibility: hidden;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    box-shadow: 0 0 5px 0 #12C1E0;
+}
+
+#capture-area img{
+    height: 100%;
+    width: 100%;
+}
+
+#capture-area-close{
+    display: block;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    z-index: 105;
+    cursor: pointer;
+}
+
+#capture-area-base{
+    height: 0;
+    width: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
