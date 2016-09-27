@@ -1,0 +1,34 @@
+		#availability_status {
+			font-size:11px;
+			margin-left:10px;
+		}
+		input.form_element {
+			width: 221px;
+			background: transparent url('images/bg.jpg') no-repeat;
+			color : #747862;
+			height:20px;
+			border:1;
+			padding:4px 8px;
+			margin-bottom:0px;
+		}
+		label {
+			width: 125px;
+			float: left;
+			text-align: left;
+			margin-right: 0.5em;
+			display: block;
+		}
+		.style_form {
+			margin:3px;
+		}
+		#isinya {
+			margin-left: auto;
+			margin-right: auto;
+			width: 600px;
+			margin-top:200px;
+		}
+		#submit_btn {
+			margin-left:133px;
+			height:30px;
+			width: 221px;
+		}
